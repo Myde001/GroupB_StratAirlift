@@ -63,8 +63,8 @@ The Strategic Airlift Input Generator only requires optional dependencies.  The 
 The following make commands are available to help compile and build the application:
 
 * `make all` (default) Will build the application and test application.
-* `make app` Will build only the application.
-* `make test` Will build only the test application.
+* `make run` Will build only the application.
+* `make run_test` Will build only the test application.
 * `make doxygen` Will build the detailed development documentation.
 * `make clean` Will remove all build artifacts.
 
