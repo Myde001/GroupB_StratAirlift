@@ -38,7 +38,7 @@ struct SIZES *my_sizes;
 int main() {    
     int rtn_val=0;              // The current state of the function to return
 
-    printf("=== Testing_parse_airports ===\n");
+    printf("=== Testing parse_airports ===\n");
     if(parse_airports_test()==0) {
         printf("parse_airports test PASSED.\n");
     }else {

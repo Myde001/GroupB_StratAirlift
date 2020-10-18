@@ -152,6 +152,7 @@ int parse_config_test() {
     printf("parse_config test 10 - Valid config file: ");
     func_rtn_val=parse_config(my_airports, "./test/data/10.cfg", my_state);
     if(func_rtn_val==CONFIG_OK && my_state->num_locations==14 && my_state->num_scenarios==10 && my_sizes->locations==4){
+        printf("PASSED Expected CONFIG_OK and recieved %d\n",func_rtn_val);
         printf("PASSED\n");
     }else{
         printf("FAILED Expected CONFIG_OK, recieved %d\n",func_rtn_val);

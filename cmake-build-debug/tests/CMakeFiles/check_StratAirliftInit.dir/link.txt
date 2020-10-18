@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -fprofile-arcs -ftest-coverage -g   CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o  -o ../../build/check_StratAirliftInit -Wl,-rpath,/root/CLionProjects/C/GroupB_StratAirlift/build ../../build/libStratAirlift.so -lcheck_pic -lrt -lm -lsubunit -lpthread 
