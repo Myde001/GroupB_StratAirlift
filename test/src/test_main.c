@@ -1,7 +1,7 @@
 /**
  * @file test_main.c
  * @author Rob Barwell, Olumide Akinola, Edwin Omoigui, Lukeman Hakkim Sheik Alavudeen
- * @date 17 Mar 2020, Last Updated 4 Apr 2020
+ * @date 17 Mar 2020, Last Updated 19 Apr 2020
  * @brief This file contains the main function to run all tests.
  */
 
@@ -38,7 +38,7 @@ struct SIZES *my_sizes;
 int main() {    
     int rtn_val=0;              // The current state of the function to return
 
-    printf("=== Testing parse_airports ===\n");
+    printf("=== Testing_parse_airports ===\n");
     if(parse_airports_test()==0) {
         printf("parse_airports test PASSED.\n");
     }else {
@@ -77,13 +77,21 @@ int main() {
         printf("calc_shortest_path test FAILED.\n");
        rtn_val=-5;
     }
+
+    printf("=== Testing export test function ===\n");
+    if(export_test()==0) {
+        printf("export_test PASSED.\n");
+    }else {
+        printf("export_test FAILED.\n");
+       rtn_val=-6;
+    }
     
     printf("=== Integration Testing ===\n");
     if(integrated_test()==0) {
         printf("Integration test PASSED.\n");
     }else {
         printf("Integration test FAILED.\n");
-       rtn_val=-6;
+       rtn_val=-7;
     }
 
     printf("%s\n",rtn_val==0 ? "All tests PASSED." : "One or more tests FAILED.");
