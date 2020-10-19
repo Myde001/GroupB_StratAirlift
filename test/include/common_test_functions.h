@@ -9,6 +9,7 @@
 #define __COMMON_TEST_FUNCTIONS_H__
 
 #include "../../include/data_types.h"
+#include <stdio.h>
 
 /**
  * @brief Defines an initial set of airports for the test.

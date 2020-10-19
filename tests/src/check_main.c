@@ -33,11 +33,10 @@ START_TEST(test_stratairlift) {
 START_TEST(test_find_closest) {
 
 } END_TEST
-START_TEST(test_gen_locations) {
-    printf("********************GENERATE LOCATIONS TEST********************\n");
-    struct AIRPORT** set_gen_locations_airports() {
-    struct AIRPORT **temp_airports;
 
+struct AIRPORT** set_gen_locations_airports() {
+
+    struct AIRPORT **temp_airports;
     temp_airports=(struct AIRPORT**)malloc(sizeof(struct AIRPORT*)*7);
     for(int init=0;init<7;init++){
         temp_airports[init]=(struct AIRPORT*)malloc(sizeof(struct AIRPORT)*5);
@@ -52,10 +51,13 @@ START_TEST(test_gen_locations) {
             temp_airports[init][fill].country="CA";
         }
         my_sizes->cont[init]=5;
-    }
-
-    return temp_airports;
 }
+
+return temp_airports;
+}
+START_TEST(test_gen_locations) {
+    printf("********************GENERATE LOCATIONS TEST********************\n");
+
 
     int rtn_val=0;                                      // The current state of the function to return
 
