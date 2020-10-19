@@ -49,7 +49,7 @@ add_library(StratAirlift SHARED
         src/main.c
         src/parse_airports.c
         src/parse_config.c
-
+	src/export.c
 
 )
 
