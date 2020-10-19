@@ -9,6 +9,8 @@
 
 #include <check.h>
 #include <string.h>
+#include "../../include/common_functions.h"
+#include "../../include/data_types.h"
 #include "../../include/calc_shortest_path.h"
 #include "../../include/gen_locations.h"
 #include "../../include/parse_airports.h"
@@ -357,7 +359,6 @@ START_TEST(export_test){
 
     my_sizes=NULL;
     
-    return rtn_val;
 }END_TEST
 
 
@@ -370,6 +371,7 @@ Suite * stratairliftinit_suite(void) {
     TCase *tc_gnl;
     TCase *tc_psc;
     TCase *tc_psa;
+    TCase *tc_exp;
 
     s = suite_create("StratAirlift");
     //    calc_shortest_path

@@ -11,6 +11,7 @@ find_package(Threads REQUIRED)
 include_directories(${CHECK_INCLUDE_DIRS})
 link_directories(${CHECK_LIBRARY_DIRS})
 
+
 set(TEST_SOURCES
         src/check_main.c
 )
