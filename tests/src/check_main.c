@@ -10,6 +10,7 @@
 #include <check.h>
 #include <string.h>
 #include "../../include/common_functions.h"
+#include "../../test/include/common_test_functions.h"
 #include "../../include/data_types.h"
 #include "../../include/calc_shortest_path.h"
 #include "../../include/gen_locations.h"
@@ -18,6 +19,8 @@
 #include "../../include/strat_airlift_functions.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 
 START_TEST(test_calc_shortest_path) {
     printf("********************CALCULATE SHORTEST PATH TEST********************\n");

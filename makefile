@@ -74,6 +74,13 @@ export_test.o: test/src/export_test.c
 common_test_functions.o: test/src/common_test_functions.c
 	$(CC) -g -c $(CFLAGS) test/src/common_test_functions.c -o build/common_test_functions.o
 
+#check
+#tests: check_main.o
+	#$(CC) -g -o bin/StratAirliftInit_Tests build/check_main.o-lm
+
+#check_main.o: tests/src/check_main.c
+	#$(CC) -g -c $(CFLAGS) tests/src/check_main.c -o build/check_main.o
+
 #This command executes the program
 run:
 	bin/StratAirliftInit
@@ -82,7 +89,9 @@ run:
 run_test:
 	bin/StratAirliftInit_Test
 
-
+#This command executes the test program
+#run_tests:
+	#bin/StratAirliftInit_Tests
 
 #This command generates the doxygen files
 doxygen:
