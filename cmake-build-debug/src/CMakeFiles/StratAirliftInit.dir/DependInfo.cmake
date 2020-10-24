@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/root/CLionProjects/C/GroupB_StratAirlift/src/calc_shortest_path.c" "/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/calc_shortest_path.c.o"
   "/root/CLionProjects/C/GroupB_StratAirlift/src/common_functions.c" "/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/common_functions.c.o"
+  "/root/CLionProjects/C/GroupB_StratAirlift/src/export.c" "/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/export.c.o"
   "/root/CLionProjects/C/GroupB_StratAirlift/src/find_closest.c" "/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/find_closest.c.o"
   "/root/CLionProjects/C/GroupB_StratAirlift/src/gen_locations.c" "/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/gen_locations.c.o"
   "/root/CLionProjects/C/GroupB_StratAirlift/src/main.c" "/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/main.c.o"

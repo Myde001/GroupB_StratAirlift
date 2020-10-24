@@ -190,6 +190,33 @@ common_functions.c.s:
 	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f src/CMakeFiles/StratAirliftInit.dir/build.make src/CMakeFiles/StratAirliftInit.dir/common_functions.c.s
 .PHONY : common_functions.c.s
 
+export.o: export.c.o
+
+.PHONY : export.o
+
+# target to build an object file
+export.c.o:
+	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f src/CMakeFiles/StratAirliftInit.dir/build.make src/CMakeFiles/StratAirliftInit.dir/export.c.o
+.PHONY : export.c.o
+
+export.i: export.c.i
+
+.PHONY : export.i
+
+# target to preprocess a source file
+export.c.i:
+	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f src/CMakeFiles/StratAirliftInit.dir/build.make src/CMakeFiles/StratAirliftInit.dir/export.c.i
+.PHONY : export.c.i
+
+export.s: export.c.s
+
+.PHONY : export.s
+
+# target to generate assembly for a file
+export.c.s:
+	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f src/CMakeFiles/StratAirliftInit.dir/build.make src/CMakeFiles/StratAirliftInit.dir/export.c.s
+.PHONY : export.c.s
+
 find_closest.o: find_closest.c.o
 
 .PHONY : find_closest.o
@@ -341,6 +368,9 @@ help:
 	@echo "... common_functions.o"
 	@echo "... common_functions.i"
 	@echo "... common_functions.s"
+	@echo "... export.o"
+	@echo "... export.i"
+	@echo "... export.s"
 	@echo "... find_closest.o"
 	@echo "... find_closest.i"
 	@echo "... find_closest.s"

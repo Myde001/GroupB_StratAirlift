@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/StratAirlift.dir/src/main.c.o"
   "CMakeFiles/StratAirlift.dir/src/parse_airports.c.o"
   "CMakeFiles/StratAirlift.dir/src/parse_config.c.o"
+  "CMakeFiles/StratAirlift.dir/src/export.c.o"
   "../build/libStratAirlift.pdb"
   "../build/libStratAirlift.so"
 )

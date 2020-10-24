@@ -133,14 +133,21 @@ int export(struct STATE *my_state, struct PATH *my_paths, char *output_directory
     strcat(dir_with_xmlfile, xml_filename);
   
     /*To generate the LocInfo.txt file*/
-    if(export_text(my_paths, dir_with_textfile)!=0){
+    int txt = export_text(my_paths, dir_with_textfile);
+    int xml = export_xml(my_state, dir_with_xmlfile);
+    if(txt !=0){
         rtn_val = -1;
     }
 
     /*To generate the Locations.xml file*/
-    if(export_xml(my_state, dir_with_xmlfile)!=0){
+    if(xml !=0){
         rtn_val = -2;
     }
+    /*To generate the LocInfo.txt and Locations.xml file*/
+    if(xml !=0 && txt !=0 ){
+        rtn_val = -3;
+    }
+
 
     return rtn_val;
 }

@@ -10,7 +10,17 @@
 data_types.h
 /root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
 
+/root/CLionProjects/C/GroupB_StratAirlift/include/common_functions.h
+data_types.h
 /root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
+
+/root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
+
+/root/CLionProjects/C/GroupB_StratAirlift/include/export.h
+data_types.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
+stdio.h
+-
 
 /root/CLionProjects/C/GroupB_StratAirlift/include/gen_locations.h
 data_types.h
@@ -28,13 +38,29 @@ data_types.h
 data_types.h
 /root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
 
+/root/CLionProjects/C/GroupB_StratAirlift/tests/include/common_test_functions.h
+../../include/data_types.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
+stdio.h
+-
+
 /root/CLionProjects/C/GroupB_StratAirlift/tests/src/check_main.c
 check.h
 -
 string.h
 -
+../../include/common_functions.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/common_functions.h
+../include/common_test_functions.h
+/root/CLionProjects/C/GroupB_StratAirlift/tests/include/common_test_functions.h
+common_test_functions.c
+/root/CLionProjects/C/GroupB_StratAirlift/tests/src/common_test_functions.c
+../../include/data_types.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
 ../../include/calc_shortest_path.h
 /root/CLionProjects/C/GroupB_StratAirlift/include/calc_shortest_path.h
+../../include/export.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/export.h
 ../../include/gen_locations.h
 /root/CLionProjects/C/GroupB_StratAirlift/include/gen_locations.h
 ../../include/parse_airports.h
@@ -47,4 +73,20 @@ stdlib.h
 -
 stdio.h
 -
+sys/stat.h
+-
+sys/types.h
+-
+
+/root/CLionProjects/C/GroupB_StratAirlift/tests/src/common_test_functions.c
+stdlib.h
+-
+stdio.h
+-
+../../include/common_functions.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/common_functions.h
+../../include/strat_airlift_functions.h
+/root/CLionProjects/C/GroupB_StratAirlift/include/strat_airlift_functions.h
+../include/common_test_functions.h
+/root/CLionProjects/C/GroupB_StratAirlift/tests/include/common_test_functions.h
 

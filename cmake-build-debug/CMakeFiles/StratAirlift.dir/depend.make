@@ -10,6 +10,10 @@ CMakeFiles/StratAirlift.dir/src/common_functions.c.o: ../include/common_function
 CMakeFiles/StratAirlift.dir/src/common_functions.c.o: ../include/data_types.h
 CMakeFiles/StratAirlift.dir/src/common_functions.c.o: ../src/common_functions.c
 
+CMakeFiles/StratAirlift.dir/src/export.c.o: ../include/common_functions.h
+CMakeFiles/StratAirlift.dir/src/export.c.o: ../include/data_types.h
+CMakeFiles/StratAirlift.dir/src/export.c.o: ../src/export.c
+
 CMakeFiles/StratAirlift.dir/src/find_closest.c.o: ../include/common_functions.h
 CMakeFiles/StratAirlift.dir/src/find_closest.c.o: ../include/data_types.h
 CMakeFiles/StratAirlift.dir/src/find_closest.c.o: ../src/find_closest.c

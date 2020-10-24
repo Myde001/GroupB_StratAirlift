@@ -10,6 +10,10 @@ CMakeFiles/StratAirlift.dir/src/common_functions.c.o
  /root/CLionProjects/C/GroupB_StratAirlift/include/common_functions.h
  /root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
  /root/CLionProjects/C/GroupB_StratAirlift/src/common_functions.c
+CMakeFiles/StratAirlift.dir/src/export.c.o
+ /root/CLionProjects/C/GroupB_StratAirlift/include/common_functions.h
+ /root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h
+ /root/CLionProjects/C/GroupB_StratAirlift/src/export.c
 CMakeFiles/StratAirlift.dir/src/find_closest.c.o
  /root/CLionProjects/C/GroupB_StratAirlift/include/common_functions.h
  /root/CLionProjects/C/GroupB_StratAirlift/include/data_types.h

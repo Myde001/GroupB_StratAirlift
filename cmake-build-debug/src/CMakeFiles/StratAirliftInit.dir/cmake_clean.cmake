@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/StratAirliftInit.dir/find_closest.c.o"
   "CMakeFiles/StratAirliftInit.dir/common_functions.c.o"
   "CMakeFiles/StratAirliftInit.dir/calc_shortest_path.c.o"
+  "CMakeFiles/StratAirliftInit.dir/export.c.o"
   "../../build/StratAirliftInit.pdb"
   "../../build/StratAirliftInit"
 )

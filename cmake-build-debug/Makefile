@@ -240,6 +240,33 @@ src/common_functions.c.s:
 	$(MAKE) -f CMakeFiles/StratAirlift.dir/build.make CMakeFiles/StratAirlift.dir/src/common_functions.c.s
 .PHONY : src/common_functions.c.s
 
+src/export.o: src/export.c.o
+
+.PHONY : src/export.o
+
+# target to build an object file
+src/export.c.o:
+	$(MAKE) -f CMakeFiles/StratAirlift.dir/build.make CMakeFiles/StratAirlift.dir/src/export.c.o
+.PHONY : src/export.c.o
+
+src/export.i: src/export.c.i
+
+.PHONY : src/export.i
+
+# target to preprocess a source file
+src/export.c.i:
+	$(MAKE) -f CMakeFiles/StratAirlift.dir/build.make CMakeFiles/StratAirlift.dir/src/export.c.i
+.PHONY : src/export.c.i
+
+src/export.s: src/export.c.s
+
+.PHONY : src/export.s
+
+# target to generate assembly for a file
+src/export.c.s:
+	$(MAKE) -f CMakeFiles/StratAirlift.dir/build.make CMakeFiles/StratAirlift.dir/src/export.c.s
+.PHONY : src/export.c.s
+
 src/find_closest.o: src/find_closest.c.o
 
 .PHONY : src/find_closest.o
@@ -422,6 +449,9 @@ help:
 	@echo "... src/common_functions.o"
 	@echo "... src/common_functions.i"
 	@echo "... src/common_functions.s"
+	@echo "... src/export.o"
+	@echo "... src/export.i"
+	@echo "... src/export.s"
 	@echo "... src/find_closest.o"
 	@echo "... src/find_closest.i"
 	@echo "... src/find_closest.s"

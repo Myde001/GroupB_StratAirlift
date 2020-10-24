@@ -244,6 +244,10 @@
 			<Option target="StratAirlift"/>
 			<Option target="StratAirliftInit"/>
 		</Unit>
+		<Unit filename="/root/CLionProjects/C/GroupB_StratAirlift/src/export.c">
+			<Option target="StratAirlift"/>
+			<Option target="StratAirliftInit"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/C/GroupB_StratAirlift/src/find_closest.c">
 			<Option target="StratAirlift"/>
 			<Option target="StratAirliftInit"/>
