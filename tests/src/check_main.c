@@ -24,71 +24,11 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-START_TEST(test_calc_shortest_path) {
-    printf("********************CALCULATE SHORTEST PATH TEST********************\n");
 
-    int rtn_val=0;                                      // The current state of the function to return
-
-    /* Creates the initial structures which will be used for all function calls. */
-    struct STATE *my_state=malloc(sizeof(struct STATE));
-    struct AIRPORT **my_airports;
-    struct PATH *my_paths=NULL;
-
-    free(my_sizes);
-    /* Initalizes my_sizes to 0 for all dynamic arrays. */
-    my_sizes=malloc(sizeof(struct SIZES));
-    for(int init=0;init<7;init++){
-        my_sizes->cont[init]=0;
-    }
-    my_sizes->locations=0;
-    my_sizes->paths=0;
-
-    my_airports=set_test_airports();
-    set_test_state(my_airports,my_state);
-
-    #ifdef DEBUG_ENABLED
-    print_state(my_state);
-    #endif
-
-     ck_assert_int_eq(calc_shortest_path(my_state, &my_paths), 0);
-     printf("calculating shortest path\n");
-
-} END_TEST
 
 START_TEST(test_stratairlift) {
 
-} END_TEST
-START_TEST(test_find_closest) {
-
-        printf("********************FIND CLOSEST TEST********************\n");
-    int rtn_val=0;                                      // The current state of the function to return
-
-    /* Creates the initial structures which will be used for all function calls. */
-    struct STATE *my_state=malloc(sizeof(struct STATE));
-    struct AIRPORT **my_airports;
-
-    free(my_sizes);
-    /* Initalizes my_sizes to 0 for all dynamic arrays. */
-    my_sizes=malloc(sizeof(struct SIZES));
-    for(int init=0;init<7;init++){
-        my_sizes->cont[init]=0;
-    }
-    my_sizes->locations=0;
-    my_sizes->paths=0;
-
-    my_airports=set_test_airports();
-    set_test_state(my_airports,my_state);
-
-    #ifdef DEBUG_ENABLED
-    print_state(my_state);
-    #endif
-
-     ck_assert_int_eq(find_closest(my_state), 0);
-     printf("find closest\n");
-
-
-} END_TEST
-
+}END_TEST 
 struct AIRPORT** set_gen_locations_airports() {
 
     struct AIRPORT **temp_airports;
@@ -110,59 +50,38 @@ struct AIRPORT** set_gen_locations_airports() {
 
 return temp_airports;
 }
-START_TEST(test_gen_locations) {
-    printf("********************GENERATE LOCATIONS TEST********************\n");
 
-
+START_TEST(test_parse_airport) {
     int rtn_val=0;                                      // The current state of the function to return
+    int test_val=0;                                     // Keep track of the number of airports read in
 
-    /* Creates the initial structures which will be used for all function calls. */
-    struct STATE *my_state=malloc(sizeof(struct STATE));
-    struct AIRPORT **my_airports;
-
-    if(!my_sizes){
-        free(my_sizes);
-    }
-    /* Initalizes my_sizes to 0 for all dynamic arrays. */
     my_sizes=malloc(sizeof(struct SIZES));
     for(int init=0;init<7;init++){
         my_sizes->cont[init]=0;
     }
-    my_sizes->locations=0;
-    my_sizes->paths=0;
 
-    my_airports=set_gen_locations_airports();
-    my_state->dist_locations[AF]=0.142857143;
-    my_state->dist_locations[AN]=0.142857143;
-    my_state->dist_locations[AS]=0.142857143;
-    my_state->dist_locations[EU]=0.142857143;
-    my_state->dist_locations[NA]=0.142857143;
-    my_state->dist_locations[OC]=0.142857143;
-    my_state->dist_locations[SA]=0.142857143;
-    my_state->num_locations=7;
-    my_state->airport_list=NULL;
-
-    printf("gen_locations test 1 - compare locations: \n");
-    if(gen_locations(my_airports, my_state)!=0) {
-        rtn_val=-1;
+    struct AIRPORT **my_airports;
+    my_airports=(struct AIRPORT**)malloc(sizeof(struct AIRPORT*)*7);
+    for(int init=0;init<7;init++){
+        my_airports[init]=NULL;
     }
-    ck_assert_int_eq(my_state->num_locations,my_sizes->locations);
+    printf("********************PARSE_AIRPORTS TEST********************\n");
+    printf("parse_airports test 1 - airport file doesn't exist: ");
+    ck_assert_int_eq(parse_airports("garbage.txt",my_airports), -1);
 
-    printf("gen_locations test 2 - duplicate locations: \n");
-    int test_dup[]={5,10,2,3,6,7};
-    ck_assert_int_eq(check_used(6, 2,test_dup), -1);
+    printf("parse_airports test 2 - airport file with different length rows: \n");
+    ck_assert_int_eq(parse_airports("../tests/data/airports_diff_sizes.csv",my_airports), 0);
 
-    my_state->num_locations=50;
-    printf("gen_locations test 3 - exceeds avaliable locations: \n");
-    ck_assert_int_ne(gen_locations(my_airports, my_state), 0);
 
-    free(my_sizes);
-    free(my_state);
+    printf("parse_airports test 3 - airport file with known number of airports: \n");
+
+    ck_assert_int_eq(parse_airports("../tests/data/airports_known_number.csv",my_airports), 0);
+
     free(my_airports);
-
-    my_sizes=NULL;
+    free(my_sizes);
 
 } END_TEST
+
 START_TEST(test_parse_config) {
     int rtn_val=CONFIG_OK;                      // The current state of the function to return
     int func_rtn_val;                           // the return value from called functions
@@ -259,34 +178,120 @@ START_TEST(test_parse_config) {
     my_sizes=NULL;
 } END_TEST
 
-START_TEST(test_parse_airport) {
-    int rtn_val=0;                                      // The current state of the function to return
-    int test_val=0;                                     // Keep track of the number of airports read in
+START_TEST(test_gen_locations) {
+    printf("********************GENERATE LOCATIONS TEST********************\n");
 
+
+    int rtn_val=0;                                      // The current state of the function to return
+
+    /* Creates the initial structures which will be used for all function calls. */
+    struct STATE *my_state=malloc(sizeof(struct STATE));
+    struct AIRPORT **my_airports;
+
+    if(!my_sizes){
+        free(my_sizes);
+    }
+    /* Initalizes my_sizes to 0 for all dynamic arrays. */
     my_sizes=malloc(sizeof(struct SIZES));
     for(int init=0;init<7;init++){
         my_sizes->cont[init]=0;
     }
+    my_sizes->locations=0;
+    my_sizes->paths=0;
 
-    struct AIRPORT **my_airports;
-    my_airports=(struct AIRPORT**)malloc(sizeof(struct AIRPORT*)*7);
-    for(int init=0;init<7;init++){
-        my_airports[init]=NULL;
+    my_airports=set_gen_locations_airports();
+    my_state->dist_locations[AF]=0.142857143;
+    my_state->dist_locations[AN]=0.142857143;
+    my_state->dist_locations[AS]=0.142857143;
+    my_state->dist_locations[EU]=0.142857143;
+    my_state->dist_locations[NA]=0.142857143;
+    my_state->dist_locations[OC]=0.142857143;
+    my_state->dist_locations[SA]=0.142857143;
+    my_state->num_locations=7;
+    my_state->airport_list=NULL;
+
+    printf("gen_locations test 1 - compare locations: \n");
+    if(gen_locations(my_airports, my_state)!=0) {
+        rtn_val=-1;
     }
-    printf("********************PARSE_AIRPORTS TEST********************\n");
-    printf("parse_airports test 1 - airport file doesn't exist: ");
-    ck_assert_int_eq(parse_airports("garbage.txt",my_airports), -1);
+    ck_assert_int_eq(my_state->num_locations,my_sizes->locations);
 
-    printf("parse_airports test 2 - airport file with different length rows: \n");
-    ck_assert_int_eq(parse_airports("../tests/data/airports_diff_sizes.csv",my_airports), 0);
+    printf("gen_locations test 2 - duplicate locations: \n");
+    int test_dup[]={5,10,2,3,6,7};
+    ck_assert_int_eq(check_used(6, 2,test_dup), -1);
 
+    my_state->num_locations=50;
+    printf("gen_locations test 3 - exceeds avaliable locations: \n");
+    ck_assert_int_ne(gen_locations(my_airports, my_state), 0);
 
-    printf("parse_airports test 3 - airport file with known number of airports: \n");
-
-    ck_assert_int_eq(parse_airports("../tests/data/airports_known_number.csv",my_airports), 0);
-
-    free(my_airports);
     free(my_sizes);
+    free(my_state);
+    free(my_airports);
+
+    my_sizes=NULL;
+
+} END_TEST
+
+START_TEST(test_find_closest) {
+
+        printf("********************FIND CLOSEST TEST********************\n");
+    int rtn_val=0;                                      // The current state of the function to return
+
+    /* Creates the initial structures which will be used for all function calls. */
+    struct STATE *my_state=malloc(sizeof(struct STATE));
+    struct AIRPORT **my_airports;
+
+    free(my_sizes);
+    /* Initalizes my_sizes to 0 for all dynamic arrays. */
+    my_sizes=malloc(sizeof(struct SIZES));
+    for(int init=0;init<7;init++){
+        my_sizes->cont[init]=0;
+    }
+    my_sizes->locations=0;
+    my_sizes->paths=0;
+
+    my_airports=set_test_airports();
+    set_test_state(my_airports,my_state);
+
+    #ifdef DEBUG_ENABLED
+    print_state(my_state);
+    #endif
+
+     ck_assert_int_eq(find_closest(my_state), 0);
+     printf("find closest\n");
+
+
+} END_TEST
+
+
+START_TEST(test_calc_shortest_path) {
+    printf("********************CALCULATE SHORTEST PATH TEST********************\n");
+
+    int rtn_val=0;                                      // The current state of the function to return
+
+    /* Creates the initial structures which will be used for all function calls. */
+    struct STATE *my_state=malloc(sizeof(struct STATE));
+    struct AIRPORT **my_airports;
+    struct PATH *my_paths=NULL;
+
+    free(my_sizes);
+    /* Initalizes my_sizes to 0 for all dynamic arrays. */
+    my_sizes=malloc(sizeof(struct SIZES));
+    for(int init=0;init<7;init++){
+        my_sizes->cont[init]=0;
+    }
+    my_sizes->locations=0;
+    my_sizes->paths=0;
+
+    my_airports=set_test_airports();
+    set_test_state(my_airports,my_state);
+
+    #ifdef DEBUG_ENABLED
+    print_state(my_state);
+    #endif
+
+     ck_assert_int_eq(calc_shortest_path(my_state, &my_paths), 0);
+     printf("calculating shortest path\n");
 
 } END_TEST
 
@@ -321,6 +326,7 @@ START_TEST(export_test){
     #ifdef DEBUG_ENABLED
     print_paths(my_paths);
     #endif
+
 
     printf("********************EXPORT TEST********************\n");
 
