@@ -273,6 +273,7 @@ START_TEST(test_calc_shortest_path) {
     struct STATE *my_state=malloc(sizeof(struct STATE));
     struct AIRPORT **my_airports;
     struct PATH *my_paths=NULL;
+    
 
     free(my_sizes);
     /* Initalizes my_sizes to 0 for all dynamic arrays. */
@@ -289,6 +290,11 @@ START_TEST(test_calc_shortest_path) {
     #ifdef DEBUG_ENABLED
     print_state(my_state);
     #endif
+    
+    
+    if(rtn_val==0 && find_closest(my_state)!=0) {
+        rtn_val=-1;
+    }
 
      ck_assert_int_eq(calc_shortest_path(my_state, &my_paths), 0);
      printf("calculating shortest path\n");
@@ -302,6 +308,7 @@ START_TEST(export_test){
     struct STATE *my_state=malloc(sizeof(struct STATE));
     struct AIRPORT **my_airports;
     struct PATH *my_paths=NULL;
+    
 
     free(my_sizes);
     /* Initalizes my_sizes to 0 for all dynamic arrays. */
@@ -318,15 +325,18 @@ START_TEST(export_test){
     #ifdef DEBUG_ENABLED
     print_state(my_state);
     #endif
-
-    if(calc_shortest_path(my_state, &my_paths)!=0) {
+    
+    if(rtn_val==0 && find_closest(my_state)!=0) {
         rtn_val=-1;
+    }
+
+    if(rtn_val==0 && calc_shortest_path(my_state, &my_paths)!=0) {
+        rtn_val=-2;
     }
 
     #ifdef DEBUG_ENABLED
     print_paths(my_paths);
     #endif
-
 
     printf("********************EXPORT TEST********************\n");
 
