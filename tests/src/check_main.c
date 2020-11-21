@@ -199,13 +199,7 @@ START_TEST(test_gen_locations) {
     my_sizes->locations=0;
     my_sizes->paths=0;
         
-    if(rtn_val==0 && parse_airports("../data/airports.csv",my_airports)) {
-            rtn_val=-1;
-    }
 
-    if(rtn_val==0 && parse_config(my_airports,"../data/blank.cfg", my_state)!=0) {
-            rtn_val=-2;
-    }
 
     my_airports=set_gen_locations_airports();
     my_state->dist_locations[AF]=0.142857143;
