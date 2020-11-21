@@ -49,61 +49,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd042191-864b-46f4-b340-0b19051f81c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/include/common_test_functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/src/common_test_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GroupB_StratAirlift.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GroupB_StratAirlift.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.base" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.base" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.capture" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.capture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.info" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.total" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.total" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/check_main.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/check_main.c.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/check_main.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/check_main.c.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/check_main.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/check_main.c.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/StratAirliftInit.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/coverage.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/coverage.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/export.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/export.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/src/check_main.c" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/check_main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/src/cmake-build-debug/" />
@@ -124,13 +75,14 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.242" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.93" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -140,8 +92,8 @@
           <entry key="HTML" value="2" />
           <entry key="Ini" value="3" />
           <entry key="Makefile" value="4" />
-          <entry key="Markdown" value="1" />
-          <entry key="ObjectiveC" value="118" />
+          <entry key="Markdown" value="3" />
+          <entry key="ObjectiveC" value="119" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -149,6 +101,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1221" />
           <entry key="Doxygen file" value="18" />
+          <entry key="Markdown" value="141" />
           <entry key="ObjectiveC" value="1515" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -157,36 +110,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/src/check_main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state relative-caret-position="456">
+              <caret line="233" selection-start-line="233" selection-end-line="233" />
               <folding>
                 <element signature="e#53#71#0" expanded="true" />
-                <element signature="e#1480#1502#0" expanded="true" />
-                <element signature="e#2286#2308#0" expanded="true" />
-                <element signature="e#9467#9489#0" expanded="true" />
-                <element signature="e#9611#9633#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/calc_shortest_path.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/data_types.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="586">
+                <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -194,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="1863">
               <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
             </state>
           </provider>
@@ -203,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/export.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="2116">
               <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -215,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/integrated.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="759">
               <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
             </state>
           </provider>
@@ -224,7 +177,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/find_closest_test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="2760">
               <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="29" />
             </state>
           </provider>
@@ -233,7 +186,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/export_test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="1794">
               <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding>
                 <element signature="e#199#217#0" expanded="true" />
@@ -245,7 +198,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/src/common_test_functions.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="1610">
               <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
             </state>
           </provider>
@@ -254,7 +207,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/include/common_test_functions.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="736">
               <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
             </state>
           </provider>
@@ -271,7 +224,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Failed to open</find>
       <find>parse_</find>
       <find>parse_co</find>
       <find>parse_config</find>
@@ -301,6 +253,7 @@
       <find>cal</find>
       <find>short</find>
       <find>blank</find>
+      <find>EXP</find>
     </findStrings>
     <replaceStrings>
       <replace>./tests</replace>
@@ -338,6 +291,7 @@
         <option value="$PROJECT_DIR$/src/export.c" />
         <option value="$PROJECT_DIR$/src/calc_shortest_path.c" />
         <option value="$PROJECT_DIR$/tests/src/check_main.c" />
+        <option value="$PROJECT_DIR$/tests/README.md" />
       </list>
     </option>
   </component>
@@ -378,23 +332,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="GroupB_StratAirlift" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupB_StratAirlift" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupB_StratAirlift" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupB_StratAirlift" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupB_StratAirlift" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupB_StratAirlift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupB_StratAirlift" type="b2602c69:ProjectViewProjectNode" />
@@ -411,6 +354,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.check_StratAirliftInit">
+  <component name="RunManager" selected="Application.coverage">
     <configuration name="StratAirliftInit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="StratAirliftInit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="StratAirliftInit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -494,21 +438,23 @@
       <workItem from="1602808674685" duration="38732000" />
       <workItem from="1603144531404" duration="1038000" />
       <workItem from="1603551795234" duration="13815000" />
+      <workItem from="1605989188922" duration="4575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89033000" />
+    <option name="totallyTimeSpent" value="93608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24012807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24279615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43009606" weight="1.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43009606" weight="0.38110748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,7 +465,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3484525" side_tool="true" weight="0.36482084" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.5795091" weight="0.3713355" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.6515475" weight="0.4353963" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.6515475" weight="0.48534203" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,13 +482,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/data/3A.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/strat_airlift_functions.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1495">
@@ -571,13 +510,7 @@
     <entry file="file://$PROJECT_DIR$/tests/src/check_parse_airports.c" />
     <entry file="file://$PROJECT_DIR$/tests/src/check_parse_config.c" />
     <entry file="file://$PROJECT_DIR$/tests/src/check_shortest_path.c" />
-    <entry file="file://$PROJECT_DIR$/test/include/calc_shortest_path_test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/include/calc_shortest_path_test.h" />
     <entry file="file://$PROJECT_DIR$/test/src/test_main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -592,14 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="564" column="12" selection-start-line="564" selection-start-column="12" selection-end-line="564" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -685,13 +610,7 @@
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/find_closest.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parse_config.c">
       <provider selected="true" editor-type-id="text-editor">
@@ -734,34 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/include/common_test_functions.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parse_airports.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/common_test_functions.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/export_test.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-          <folding>
-            <element signature="e#199#217#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,9 +667,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/calc_shortest_path.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/data_types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/export.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="2116">
           <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -784,50 +700,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/integrated.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="759">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calc_shortest_path.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/data_types.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/find_closest_test.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="2760">
           <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/export_test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="e#199#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/src/common_test_functions.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/include/common_test_functions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/src/check_main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        <state relative-caret-position="456">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
           <folding>
             <element signature="e#53#71#0" expanded="true" />
-            <element signature="e#1480#1502#0" expanded="true" />
-            <element signature="e#2286#2308#0" expanded="true" />
-            <element signature="e#9467#9489#0" expanded="true" />
-            <element signature="e#9611#9633#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="586">
+            <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
