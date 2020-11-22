@@ -38,7 +38,6 @@
       <config projectName="GroupB_StratAirlift" targetName="test_StratAirliftInit" />
       <config projectName="GroupB_StratAirlift" targetName="Money" />
       <config projectName="GroupB_StratAirlift" targetName="StratAirlift" />
-      <config projectName="GroupB_StratAirlift" targetName="coverage" />
       <config projectName="GroupB_StratAirlift" targetName="StratAirliftInit" />
     </generated>
   </component>
@@ -53,17 +52,16 @@
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GroupB_StratAirlift.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GroupB_StratAirlift.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -111,7 +109,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1222" />
+          <entry key="CMakeLists.txt" value="1281" />
           <entry key="Doxygen file" value="18" />
           <entry key="Markdown" value="166" />
           <entry key="ObjectiveC" value="1515" />
@@ -126,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/tests/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
+              <first_editor relative-caret-position="451">
                 <caret line="36" selection-start-line="36" selection-end-line="36" />
               </first_editor>
               <second_editor />
@@ -134,20 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+            <state relative-caret-position="277">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="120">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -229,8 +227,8 @@
         <option value="$PROJECT_DIR$/src/calc_shortest_path.c" />
         <option value="$PROJECT_DIR$/tests/src/check_main.c" />
         <option value="$PROJECT_DIR$/tests/README.md" />
-        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -320,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.coverage">
+  <component name="RunManager" selected="Application.test_StratAirliftInit">
     <configuration name="StratAirliftInit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="StratAirliftInit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="StratAirliftInit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -336,12 +334,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="coverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="check_StratAirliftInit">
+    <configuration name="coverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="coverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="GroupB_StratAirlift">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_StratAirliftInit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="test_StratAirliftInit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="GroupB_StratAirlift">
+    <configuration name="test_StratAirliftInit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="test_StratAirliftInit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="check_StratAirliftInit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -372,12 +370,12 @@
       <workItem from="1603144531404" duration="1038000" />
       <workItem from="1603551795234" duration="13815000" />
       <workItem from="1605989188922" duration="4958000" />
-      <workItem from="1606040864086" duration="5654000" />
+      <workItem from="1606040864086" duration="7151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99645000" />
+    <option name="totallyTimeSpent" value="101142000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -392,23 +390,23 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2620064" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2620064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893278" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42742795" visible="true" weight="0.27144408" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42529348" weight="0.27144408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994664" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="8" sideWeight="0.49839914" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.5101931" weight="0.39269406" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.57257205" side_tool="true" visible="true" weight="0.27144408" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.50765866" weight="0.39196527" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3804696" side_tool="true" visible="true" weight="0.48751357" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.62017167" weight="0.4885845" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.65101385" weight="0.48534203" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" sideWeight="0.61953044" visible="true" weight="0.48751357" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.6498906" weight="0.48534203" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -677,24 +675,24 @@
     <entry file="file://$PROJECT_DIR$/tests/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
+          <first_editor relative-caret-position="451">
             <caret line="36" selection-start-line="36" selection-end-line="36" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="277">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>

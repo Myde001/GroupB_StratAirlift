@@ -11,6 +11,19 @@ find_package(Threads REQUIRED)
 include_directories(${CHECK_INCLUDE_DIRS})
 link_directories(${CHECK_LIBRARY_DIRS})
 
+################################################################################
+# testing coverage
+
+if(CMAKE_COMPILER_IS_GNUCC)
+LIST(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_modules")
+include(CodeCoverage)
+APPEND_COVERAGE_COMPILER_FLAGS()
+#set(COVERAGE_LCOV_EXCLUDES 'dir1/*' 'dir2/*') // this is optional if you want to exclude some directory from the report
+SETUP_TARGET_FOR_COVERAGE_LCOV(NAME coverage
+                              EXECUTABLE  check_StratAirliftInit
+                              DEPENDENCIES check_StratAirliftInit)
+endif()
+
 
 set(TEST_SOURCES
         src/check_main.c
@@ -18,5 +31,3 @@ set(TEST_SOURCES
 
 add_executable(check_StratAirliftInit ${TEST_SOURCES})
 target_link_libraries(check_StratAirliftInit StratAirlift ${CHECK_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
-
-

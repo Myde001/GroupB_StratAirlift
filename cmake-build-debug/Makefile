@@ -67,17 +67,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -88,6 +77,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,19 +122,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_StratAirliftInit
-
-# Build rule for target.
-test_StratAirliftInit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_StratAirliftInit
-.PHONY : test_StratAirliftInit
-
-# fast build rule for target.
-test_StratAirliftInit/fast:
-	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/build
-.PHONY : test_StratAirliftInit/fast
-
-#=============================================================================
 # Target rules for targets named StratAirlift
 
 # Build rule for target.
@@ -148,17 +135,17 @@ StratAirlift/fast:
 .PHONY : StratAirlift/fast
 
 #=============================================================================
-# Target rules for targets named coverage
+# Target rules for targets named test_StratAirliftInit
 
 # Build rule for target.
-coverage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coverage
-.PHONY : coverage
+test_StratAirliftInit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_StratAirliftInit
+.PHONY : test_StratAirliftInit
 
 # fast build rule for target.
-coverage/fast:
-	$(MAKE) -f CMakeFiles/coverage.dir/build.make CMakeFiles/coverage.dir/build
-.PHONY : coverage/fast
+test_StratAirliftInit/fast:
+	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/build
+.PHONY : test_StratAirliftInit/fast
 
 #=============================================================================
 # Target rules for targets named StratAirliftInit
@@ -172,6 +159,19 @@ StratAirliftInit: cmake_check_build_system
 StratAirliftInit/fast:
 	$(MAKE) -f src/CMakeFiles/StratAirliftInit.dir/build.make src/CMakeFiles/StratAirliftInit.dir/build
 .PHONY : StratAirliftInit/fast
+
+#=============================================================================
+# Target rules for targets named coverage
+
+# Build rule for target.
+coverage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coverage
+.PHONY : coverage
+
+# fast build rule for target.
+coverage/fast:
+	$(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+.PHONY : coverage/fast
 
 #=============================================================================
 # Target rules for targets named check_StratAirliftInit
@@ -436,12 +436,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
+	@echo "... StratAirlift"
 	@echo "... test"
 	@echo "... test_StratAirliftInit"
-	@echo "... StratAirlift"
-	@echo "... coverage"
+	@echo "... edit_cache"
 	@echo "... StratAirliftInit"
+	@echo "... coverage"
 	@echo "... check_StratAirliftInit"
 	@echo "... src/calc_shortest_path.o"
 	@echo "... src/calc_shortest_path.i"

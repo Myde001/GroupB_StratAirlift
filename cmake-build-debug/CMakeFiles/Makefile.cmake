@@ -62,9 +62,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test_StratAirliftInit.dir/DependInfo.cmake"
   "CMakeFiles/StratAirlift.dir/DependInfo.cmake"
-  "CMakeFiles/coverage.dir/DependInfo.cmake"
+  "CMakeFiles/test_StratAirliftInit.dir/DependInfo.cmake"
   "src/CMakeFiles/StratAirliftInit.dir/DependInfo.cmake"
+  "tests/CMakeFiles/coverage.dir/DependInfo.cmake"
   "tests/CMakeFiles/check_StratAirliftInit.dir/DependInfo.cmake"
   )

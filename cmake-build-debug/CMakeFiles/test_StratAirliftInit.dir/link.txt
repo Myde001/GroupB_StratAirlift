@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC  -g -fprofile-arcs -ftest-coverage -g  -shared -Wl,-soname,libtest_StratAirliftInit.so -o ../build/libtest_StratAirliftInit.so CMakeFiles/test_StratAirliftInit.dir/tests/src/check_main.c.o 
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libtest_StratAirliftInit.so -o ../build/libtest_StratAirliftInit.so CMakeFiles/test_StratAirliftInit.dir/tests/src/check_main.c.o 

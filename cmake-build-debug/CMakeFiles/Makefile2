@@ -65,43 +65,6 @@ CMAKE_SOURCE_DIR = /root/CLionProjects/C/GroupB_StratAirlift
 CMAKE_BINARY_DIR = /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/test_StratAirliftInit.dir
-
-# All Build rule for target.
-CMakeFiles/test_StratAirliftInit.dir/all:
-	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/depend
-	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target test_StratAirliftInit"
-.PHONY : CMakeFiles/test_StratAirliftInit.dir/all
-
-# Include target in all.
-all: CMakeFiles/test_StratAirliftInit.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test_StratAirliftInit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_StratAirliftInit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test_StratAirliftInit.dir/rule
-
-# Convenience name for target.
-test_StratAirliftInit: CMakeFiles/test_StratAirliftInit.dir/rule
-
-.PHONY : test_StratAirliftInit
-
-# clean rule for target.
-CMakeFiles/test_StratAirliftInit.dir/clean:
-	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/clean
-.PHONY : CMakeFiles/test_StratAirliftInit.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/test_StratAirliftInit.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/StratAirlift.dir
 
 # All Build rule for target.
@@ -139,34 +102,39 @@ clean: CMakeFiles/StratAirlift.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/coverage.dir
+# Target rules for target CMakeFiles/test_StratAirliftInit.dir
 
 # All Build rule for target.
-CMakeFiles/coverage.dir/all: tests/CMakeFiles/check_StratAirliftInit.dir/all
-	$(MAKE) -f CMakeFiles/coverage.dir/build.make CMakeFiles/coverage.dir/depend
-	$(MAKE) -f CMakeFiles/coverage.dir/build.make CMakeFiles/coverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles --progress-num=21 "Built target coverage"
-.PHONY : CMakeFiles/coverage.dir/all
+CMakeFiles/test_StratAirliftInit.dir/all:
+	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/depend
+	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target test_StratAirliftInit"
+.PHONY : CMakeFiles/test_StratAirliftInit.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_StratAirliftInit.dir/all
+
+.PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/coverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 12
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/coverage.dir/all
+CMakeFiles/test_StratAirliftInit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_StratAirliftInit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/coverage.dir/rule
+.PHONY : CMakeFiles/test_StratAirliftInit.dir/rule
 
 # Convenience name for target.
-coverage: CMakeFiles/coverage.dir/rule
+test_StratAirliftInit: CMakeFiles/test_StratAirliftInit.dir/rule
 
-.PHONY : coverage
-
-# clean rule for target.
-CMakeFiles/coverage.dir/clean:
-	$(MAKE) -f CMakeFiles/coverage.dir/build.make CMakeFiles/coverage.dir/clean
-.PHONY : CMakeFiles/coverage.dir/clean
+.PHONY : test_StratAirliftInit
 
 # clean rule for target.
-clean: CMakeFiles/coverage.dir/clean
+CMakeFiles/test_StratAirliftInit.dir/clean:
+	$(MAKE) -f CMakeFiles/test_StratAirliftInit.dir/build.make CMakeFiles/test_StratAirliftInit.dir/clean
+.PHONY : CMakeFiles/test_StratAirliftInit.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_StratAirliftInit.dir/clean
 
 .PHONY : clean
 
@@ -234,6 +202,7 @@ tests/all: tests/CMakeFiles/check_StratAirliftInit.dir/all
 .PHONY : tests/all
 
 # Convenience name for "clean" pass in the directory.
+tests/clean: tests/CMakeFiles/coverage.dir/clean
 tests/clean: tests/CMakeFiles/check_StratAirliftInit.dir/clean
 
 .PHONY : tests/clean
@@ -242,6 +211,38 @@ tests/clean: tests/CMakeFiles/check_StratAirliftInit.dir/clean
 tests/preinstall:
 
 .PHONY : tests/preinstall
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/coverage.dir
+
+# All Build rule for target.
+tests/CMakeFiles/coverage.dir/all: tests/CMakeFiles/check_StratAirliftInit.dir/all
+	$(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/depend
+	$(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles --progress-num=21 "Built target coverage"
+.PHONY : tests/CMakeFiles/coverage.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/coverage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles 0
+.PHONY : tests/CMakeFiles/coverage.dir/rule
+
+# Convenience name for target.
+coverage: tests/CMakeFiles/coverage.dir/rule
+
+.PHONY : coverage
+
+# clean rule for target.
+tests/CMakeFiles/coverage.dir/clean:
+	$(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/clean
+.PHONY : tests/CMakeFiles/coverage.dir/clean
+
+# clean rule for target.
+clean: tests/CMakeFiles/coverage.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target tests/CMakeFiles/check_StratAirliftInit.dir
