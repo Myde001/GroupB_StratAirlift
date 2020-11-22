@@ -1,5 +1,4 @@
 /root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /root/CLionProjects/C/GroupB_StratAirlift
--- Appending code coverage compiler flags: -g -fprofile-arcs -ftest-coverage
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug

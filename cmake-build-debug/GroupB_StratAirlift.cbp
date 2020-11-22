@@ -201,16 +201,6 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="coverage">
-				<Option working_dir="/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 coverage"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/root/CLionProjects/C/GroupB_StratAirlift/include/calc_shortest_path.h">
 			<Option target="StratAirliftInit"/>
@@ -280,9 +270,6 @@
 		</Unit>
 		<Unit filename="/root/CLionProjects/C/GroupB_StratAirlift/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
-		</Unit>
-		<Unit filename="/root/CLionProjects/C/GroupB_StratAirlift/CMakeModules/CodeCoverage.cmake">
-			<Option virtualFolder="CMake Files\CMakeModules\"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/C/GroupB_StratAirlift/CMakeModules/FindCheck.cmake">
 			<Option virtualFolder="CMake Files\CMakeModules\"/>

@@ -1,20 +1,20 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_82a41/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_82a41.dir/build.make CMakeFiles/cmTC_82a41.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_aa80f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_aa80f.dir/build.make CMakeFiles/cmTC_aa80f.dir/build
 gmake[1]: Entering directory '/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_82a41.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_82a41.dir/CheckSymbolExists.c.o   -c /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_82a41
-/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82a41.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_82a41.dir/CheckSymbolExists.c.o  -o cmTC_82a41 
-/usr/bin/ld: CMakeFiles/cmTC_82a41.dir/CheckSymbolExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_aa80f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_aa80f.dir/CheckSymbolExists.c.o   -c /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aa80f
+/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa80f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_aa80f.dir/CheckSymbolExists.c.o  -o cmTC_aa80f 
+/usr/bin/ld: CMakeFiles/cmTC_aa80f.dir/CheckSymbolExists.c.o: in function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_82a41.dir/build.make:87: cmTC_82a41] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_aa80f.dir/build.make:87: cmTC_aa80f] Error 1
 gmake[1]: Leaving directory '/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_82a41/fast] Error 2
+gmake: *** [Makefile:121: cmTC_aa80f/fast] Error 2
 
 File /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -34,18 +34,18 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d5710/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d5710.dir/build.make CMakeFiles/cmTC_d5710.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_3a3dd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3a3dd.dir/build.make CMakeFiles/cmTC_3a3dd.dir/build
 gmake[1]: Entering directory '/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d5710.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_d5710.dir/CheckFunctionExists.c.o   -c /root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d5710
-/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5710.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d5710.dir/CheckFunctionExists.c.o  -o cmTC_d5710 -lpthreads 
+Building C object CMakeFiles/cmTC_3a3dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_3a3dd.dir/CheckFunctionExists.c.o   -c /root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a3dd
+/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a3dd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3a3dd.dir/CheckFunctionExists.c.o  -o cmTC_3a3dd -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_d5710.dir/build.make:87: cmTC_d5710] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_3a3dd.dir/build.make:87: cmTC_3a3dd] Error 1
 gmake[1]: Leaving directory '/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_d5710/fast] Error 2
+gmake: *** [Makefile:121: cmTC_3a3dd/fast] Error 2
 
 

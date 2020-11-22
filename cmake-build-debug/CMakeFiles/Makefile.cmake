@@ -14,7 +14,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CMakeGenericSystem.cmake"
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CMakeInitializeConfigs.cmake"
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake"
-  "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CMakeParseArguments.cmake"
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake"
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake"
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/CheckCSourceCompiles.cmake"
@@ -39,7 +38,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/Platform/UnixPaths.cmake"
   "/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/share/cmake-3.12/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "../CMakeModules/CodeCoverage.cmake"
   "../CMakeModules/FindCheck.cmake"
   "CMakeFiles/3.12.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.12.3/CMakeSystem.cmake"
@@ -66,5 +64,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_StratAirliftInit.dir/DependInfo.cmake"
   "src/CMakeFiles/StratAirliftInit.dir/DependInfo.cmake"
   "tests/CMakeFiles/check_StratAirliftInit.dir/DependInfo.cmake"
-  "tests/CMakeFiles/coverage.dir/DependInfo.cmake"
   )

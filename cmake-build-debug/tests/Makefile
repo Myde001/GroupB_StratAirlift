@@ -56,16 +56,16 @@ CMAKE_BINARY_DIR = /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : rebuild_cache/fast
+.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -78,16 +78,16 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/root/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.50/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
 
-.PHONY : edit_cache/fast
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -136,21 +136,6 @@ check_StratAirliftInit/fast:
 	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/check_StratAirliftInit.dir/build.make tests/CMakeFiles/check_StratAirliftInit.dir/build
 .PHONY : check_StratAirliftInit/fast
 
-# Convenience name for target.
-tests/CMakeFiles/coverage.dir/rule:
-	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
-.PHONY : tests/CMakeFiles/coverage.dir/rule
-
-# Convenience name for target.
-coverage: tests/CMakeFiles/coverage.dir/rule
-
-.PHONY : coverage
-
-# fast build rule for target.
-coverage/fast:
-	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
-.PHONY : coverage/fast
-
 src/check_main.o: src/check_main.c.o
 
 .PHONY : src/check_main.o
@@ -184,11 +169,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... check_StratAirliftInit"
-	@echo "... coverage"
-	@echo "... test"
-	@echo "... edit_cache"
 	@echo "... src/check_main.o"
 	@echo "... src/check_main.i"
 	@echo "... src/check_main.s"
