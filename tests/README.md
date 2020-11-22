@@ -33,4 +33,27 @@ Open VSC, go to Code > Preferences > Extensions (also using the shortcut shift +
 
 `sudo apt-get install gcovr`
 
+Unfortunately in VSCode CodeCoverage via cmakelist is greyed out 
+
+check link for more info "https://developercommunity.visualstudio.com/content/problem/208774/measuring-code-coverage-is-disabled-if-a-cmakelist.html"
+
+This might prevent code from building hence to fix that, comment out this section in tests/CMakeLists.txt
+
+`# testing coverage`
+
+`if(CMAKE_COMPILER_IS_GNUCC)`
+
+`LIST(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_modules")`
+
+`include(CodeCoverage)`
+`APPEND_COVERAGE_COMPILER_FLAGS()`
+`#set(COVERAGE_LCOV_EXCLUDES 'dir1/*' 'dir2/*') // this is optional if you want to exclude some directory from the report`
+
+`SETUP_TARGET_FOR_COVERAGE_LCOV(NAME coverage EXECUTABLE  check_StratAirliftInit  DEPENDENCIES check_StratAirliftInit)`
+
+`endif()`
+
+
+An alternative way is to try 
+
 `gcovr -r . --html -o coverage.html`

@@ -11,6 +11,15 @@ find_package(Threads REQUIRED)
 include_directories(${CHECK_INCLUDE_DIRS})
 link_directories(${CHECK_LIBRARY_DIRS})
 
+
+set(TEST_SOURCES
+        src/check_main.c
+)
+
+add_executable(check_StratAirliftInit ${TEST_SOURCES})
+target_link_libraries(check_StratAirliftInit StratAirlift ${CHECK_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+
+
 ################################################################################
 # testing coverage
 
@@ -22,12 +31,5 @@ APPEND_COVERAGE_COMPILER_FLAGS()
 SETUP_TARGET_FOR_COVERAGE_LCOV(NAME coverage
                               EXECUTABLE  check_StratAirliftInit
                               DEPENDENCIES check_StratAirliftInit)
+
 endif()
-
-
-set(TEST_SOURCES
-        src/check_main.c
-)
-
-add_executable(check_StratAirliftInit ${TEST_SOURCES})
-target_link_libraries(check_StratAirliftInit StratAirlift ${CHECK_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})

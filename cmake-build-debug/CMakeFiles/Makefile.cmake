@@ -65,6 +65,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/StratAirlift.dir/DependInfo.cmake"
   "CMakeFiles/test_StratAirliftInit.dir/DependInfo.cmake"
   "src/CMakeFiles/StratAirliftInit.dir/DependInfo.cmake"
-  "tests/CMakeFiles/coverage.dir/DependInfo.cmake"
   "tests/CMakeFiles/check_StratAirliftInit.dir/DependInfo.cmake"
+  "tests/CMakeFiles/coverage.dir/DependInfo.cmake"
   )

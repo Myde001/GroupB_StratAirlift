@@ -161,19 +161,6 @@ StratAirliftInit/fast:
 .PHONY : StratAirliftInit/fast
 
 #=============================================================================
-# Target rules for targets named coverage
-
-# Build rule for target.
-coverage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coverage
-.PHONY : coverage
-
-# fast build rule for target.
-coverage/fast:
-	$(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
-.PHONY : coverage/fast
-
-#=============================================================================
 # Target rules for targets named check_StratAirliftInit
 
 # Build rule for target.
@@ -185,6 +172,19 @@ check_StratAirliftInit: cmake_check_build_system
 check_StratAirliftInit/fast:
 	$(MAKE) -f tests/CMakeFiles/check_StratAirliftInit.dir/build.make tests/CMakeFiles/check_StratAirliftInit.dir/build
 .PHONY : check_StratAirliftInit/fast
+
+#=============================================================================
+# Target rules for targets named coverage
+
+# Build rule for target.
+coverage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coverage
+.PHONY : coverage
+
+# fast build rule for target.
+coverage/fast:
+	$(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+.PHONY : coverage/fast
 
 src/calc_shortest_path.o: src/calc_shortest_path.c.o
 
@@ -441,8 +441,8 @@ help:
 	@echo "... test_StratAirliftInit"
 	@echo "... edit_cache"
 	@echo "... StratAirliftInit"
-	@echo "... coverage"
 	@echo "... check_StratAirliftInit"
+	@echo "... coverage"
 	@echo "... src/calc_shortest_path.o"
 	@echo "... src/calc_shortest_path.i"
 	@echo "... src/calc_shortest_path.s"

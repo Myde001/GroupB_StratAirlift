@@ -161,16 +161,6 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="coverage">
-				<Option working_dir="/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 coverage"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="check_StratAirliftInit">
 				<Option output="/root/CLionProjects/C/GroupB_StratAirlift/build/check_StratAirliftInit" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/root/CLionProjects/C/GroupB_StratAirlift/build"/>
@@ -206,6 +196,16 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 check_StratAirliftInit/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coverage">
+				<Option working_dir="/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 coverage"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>

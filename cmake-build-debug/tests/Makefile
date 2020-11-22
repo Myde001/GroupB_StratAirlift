@@ -122,21 +122,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tests/CMakeFiles/coverage.dir/rule:
-	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
-.PHONY : tests/CMakeFiles/coverage.dir/rule
-
-# Convenience name for target.
-coverage: tests/CMakeFiles/coverage.dir/rule
-
-.PHONY : coverage
-
-# fast build rule for target.
-coverage/fast:
-	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
-.PHONY : coverage/fast
-
-# Convenience name for target.
 tests/CMakeFiles/check_StratAirliftInit.dir/rule:
 	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/check_StratAirliftInit.dir/rule
 .PHONY : tests/CMakeFiles/check_StratAirliftInit.dir/rule
@@ -150,6 +135,21 @@ check_StratAirliftInit: tests/CMakeFiles/check_StratAirliftInit.dir/rule
 check_StratAirliftInit/fast:
 	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/check_StratAirliftInit.dir/build.make tests/CMakeFiles/check_StratAirliftInit.dir/build
 .PHONY : check_StratAirliftInit/fast
+
+# Convenience name for target.
+tests/CMakeFiles/coverage.dir/rule:
+	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
+.PHONY : tests/CMakeFiles/coverage.dir/rule
+
+# Convenience name for target.
+coverage: tests/CMakeFiles/coverage.dir/rule
+
+.PHONY : coverage
+
+# fast build rule for target.
+coverage/fast:
+	cd /root/CLionProjects/C/GroupB_StratAirlift/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+.PHONY : coverage/fast
 
 src/check_main.o: src/check_main.c.o
 
@@ -184,9 +184,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... coverage"
 	@echo "... rebuild_cache"
 	@echo "... check_StratAirliftInit"
+	@echo "... coverage"
 	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... src/check_main.o"

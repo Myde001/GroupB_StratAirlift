@@ -38,6 +38,7 @@
       <config projectName="GroupB_StratAirlift" targetName="test_StratAirliftInit" />
       <config projectName="GroupB_StratAirlift" targetName="Money" />
       <config projectName="GroupB_StratAirlift" targetName="StratAirlift" />
+      <config projectName="GroupB_StratAirlift" targetName="coverage" />
       <config projectName="GroupB_StratAirlift" targetName="StratAirliftInit" />
     </generated>
   </component>
@@ -49,20 +50,67 @@
   <component name="ChangeListManager">
     <list default="true" id="cd042191-864b-46f4-b340-0b19051f81c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/calc_shortest_path.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/calc_shortest_path.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/common_functions.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/common_functions.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/find_closest.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/find_closest.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/gen_locations.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/gen_locations.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/parse_airports.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/parse_airports.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/parse_config.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StratAirlift.dir/src/parse_config.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_StratAirliftInit.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GroupB_StratAirlift.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GroupB_StratAirlift.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.base" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.capture" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.capture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.info" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage.total" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage.total" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/calc_shortest_path.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/calc_shortest_path.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/calc_shortest_path.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/calc_shortest_path.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/calc_shortest_path.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/calc_shortest_path.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/common_functions.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/common_functions.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/common_functions.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/common_functions.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/common_functions.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/common_functions.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/export.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/export.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/export.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/export.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/export.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/export.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/find_closest.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/find_closest.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/find_closest.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/find_closest.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/find_closest.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/find_closest.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/gen_locations.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/gen_locations.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/gen_locations.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/gen_locations.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/gen_locations.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/gen_locations.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/main.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/main.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/main.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/main.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/main.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/main.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_airports.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_airports.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_airports.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_airports.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_airports.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_airports.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_config.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_config.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_config.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_config.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_config.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/src/parse_config.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/check_main.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/check_main.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/check_main.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/check_main.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/check_main.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/check_main.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/common_test_functions.c.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/common_test_functions.c.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/common_test_functions.c.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/common_test_functions.c.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/common_test_functions.c.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/common_test_functions.c.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/coverage/tests/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/check_StratAirliftInit.dir/src/check_main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tests/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/src/cmake-build-debug/" />
@@ -109,9 +157,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1281" />
+          <entry key="CMakeLists.txt" value="1292" />
           <entry key="Doxygen file" value="18" />
-          <entry key="Markdown" value="166" />
+          <entry key="Markdown" value="287" />
           <entry key="ObjectiveC" value="1515" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -120,12 +168,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="451">
-                <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <first_editor relative-caret-position="351">
+                <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,17 +183,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="580">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="580">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="21" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -226,9 +274,9 @@
         <option value="$PROJECT_DIR$/src/export.c" />
         <option value="$PROJECT_DIR$/src/calc_shortest_path.c" />
         <option value="$PROJECT_DIR$/tests/src/check_main.c" />
-        <option value="$PROJECT_DIR$/tests/README.md" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/tests/README.md" />
       </list>
     </option>
   </component>
@@ -239,7 +287,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="960" />
     <option name="height" value="1053" />
@@ -318,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test_StratAirliftInit">
+  <component name="RunManager" selected="Application.coverage">
     <configuration name="StratAirliftInit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="StratAirliftInit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="StratAirliftInit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -334,7 +382,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="coverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="GroupB_StratAirlift">
+    <configuration name="coverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GroupB_StratAirlift" TARGET_NAME="coverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GroupB_StratAirlift" RUN_TARGET_NAME="check_StratAirliftInit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -370,12 +418,12 @@
       <workItem from="1603144531404" duration="1038000" />
       <workItem from="1603551795234" duration="13815000" />
       <workItem from="1605989188922" duration="4958000" />
-      <workItem from="1606040864086" duration="7151000" />
+      <workItem from="1606040864086" duration="9083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101142000" />
+    <option name="totallyTimeSpent" value="103074000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -395,18 +443,18 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893278" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42529348" weight="0.27144408" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.42475986" visible="true" weight="0.330076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994664" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="8" sideWeight="0.49839914" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.50765866" weight="0.39196527" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3804696" side_tool="true" visible="true" weight="0.48751357" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.506937" weight="0.39196527" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.57524014" side_tool="true" visible="true" weight="0.330076" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="CMake" order="12" sideWeight="0.61953044" visible="true" weight="0.48751357" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.6498906" weight="0.48534203" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.61953044" weight="0.48751357" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.64941305" weight="0.48534203" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -672,27 +720,27 @@
     <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="451">
-            <caret line="36" selection-start-line="36" selection-end-line="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="580">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="580">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="21" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="351">
+            <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

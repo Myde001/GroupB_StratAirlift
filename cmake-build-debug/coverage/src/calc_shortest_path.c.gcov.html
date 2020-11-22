@@ -31,18 +31,18 @@
             <td class="headerValue">coverage.info</td>
             <td></td>
             <td class="headerItem">Lines:</td>
-            <td class="headerCovTableEntry">44</td>
+            <td class="headerCovTableEntry">0</td>
             <td class="headerCovTableEntry">46</td>
-            <td class="headerCovTableEntryHi">95.7 %</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2020-11-22 14:05:29</td>
+            <td class="headerValue">2020-11-22 14:51:13</td>
             <td></td>
             <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
             <td class="headerCovTableEntry">2</td>
-            <td class="headerCovTableEntry">2</td>
-            <td class="headerCovTableEntryHi">100.0 %</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
           </tr>
           <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
         </table>
@@ -71,44 +71,44 @@
 <a name="9"><span class="lineNum">       9 </span>            : // Defined in the main.c file</a>
 <a name="10"><span class="lineNum">      10 </span>            : extern struct SIZES *my_sizes;</a>
 <a name="11"><span class="lineNum">      11 </span>            : </a>
-<a name="12"><span class="lineNum">      12 </span><span class="lineCov">         10 : int dijsktra(int source, struct STATE *my_state, struct PATH **my_paths) {</span></a>
-<a name="13"><span class="lineNum">      13 </span><span class="lineCov">         10 :     int dist[my_sizes-&gt;locations];                      // Current shortest distance between the source and locations</span></a>
-<a name="14"><span class="lineNum">      14 </span><span class="lineCov">         10 :     int visited[my_sizes-&gt;locations];                   // Whether the current location has been visited</span></a>
-<a name="15"><span class="lineNum">      15 </span><span class="lineCov">         10 :     int next[my_sizes-&gt;locations];                      // The first location on the shortest path to destination</span></a>
-<a name="16"><span class="lineNum">      16 </span><span class="lineCov">         10 :     int curr=source;                                    // The current location being visited</span></a>
-<a name="17"><span class="lineNum">      17 </span><span class="lineCov">         10 :     int smallest_value=0;                               // The next smallest distance to visit</span></a>
-<a name="18"><span class="lineNum">      18 </span><span class="lineCov">         10 :     int rtn_val=0;                                      // The current state of the function to return</span></a>
+<a name="12"><span class="lineNum">      12 </span><span class="lineNoCov">          0 : int dijsktra(int source, struct STATE *my_state, struct PATH **my_paths) {</span></a>
+<a name="13"><span class="lineNum">      13 </span><span class="lineNoCov">          0 :     int dist[my_sizes-&gt;locations];                      // Current shortest distance between the source and locations</span></a>
+<a name="14"><span class="lineNum">      14 </span><span class="lineNoCov">          0 :     int visited[my_sizes-&gt;locations];                   // Whether the current location has been visited</span></a>
+<a name="15"><span class="lineNum">      15 </span><span class="lineNoCov">          0 :     int next[my_sizes-&gt;locations];                      // The first location on the shortest path to destination</span></a>
+<a name="16"><span class="lineNum">      16 </span><span class="lineNoCov">          0 :     int curr=source;                                    // The current location being visited</span></a>
+<a name="17"><span class="lineNum">      17 </span><span class="lineNoCov">          0 :     int smallest_value=0;                               // The next smallest distance to visit</span></a>
+<a name="18"><span class="lineNum">      18 </span><span class="lineNoCov">          0 :     int rtn_val=0;                                      // The current state of the function to return</span></a>
 <a name="19"><span class="lineNum">      19 </span>            : </a>
 <a name="20"><span class="lineNum">      20 </span>            :     // Initialization for arrays</a>
-<a name="21"><span class="lineNum">      21 </span><span class="lineCov">         60 :     for(int init=0;init&lt;my_sizes-&gt;locations;init++) {</span></a>
-<a name="22"><span class="lineNum">      22 </span><span class="lineCov">         50 :         dist[init]=INT_MAX;</span></a>
-<a name="23"><span class="lineNum">      23 </span><span class="lineCov">         50 :         visited[init]=0;</span></a>
+<a name="21"><span class="lineNum">      21 </span><span class="lineNoCov">          0 :     for(int init=0;init&lt;my_sizes-&gt;locations;init++) {</span></a>
+<a name="22"><span class="lineNum">      22 </span><span class="lineNoCov">          0 :         dist[init]=INT_MAX;</span></a>
+<a name="23"><span class="lineNum">      23 </span><span class="lineNoCov">          0 :         visited[init]=0;</span></a>
 <a name="24"><span class="lineNum">      24 </span>            :     }</a>
 <a name="25"><span class="lineNum">      25 </span>            :     </a>
-<a name="26"><span class="lineNum">      26 </span><span class="lineCov">         10 :     dist[curr]=0;</span></a>
-<a name="27"><span class="lineNum">      27 </span><span class="lineCov">         10 :     next[curr]=0;</span></a>
+<a name="26"><span class="lineNum">      26 </span><span class="lineNoCov">          0 :     dist[curr]=0;</span></a>
+<a name="27"><span class="lineNum">      27 </span><span class="lineNoCov">          0 :     next[curr]=0;</span></a>
 <a name="28"><span class="lineNum">      28 </span>            :     </a>
 <a name="29"><span class="lineNum">      29 </span>            :     // Loops through until all locations have been visited</a>
-<a name="30"><span class="lineNum">      30 </span><span class="lineCov">         60 :     while(curr!=INT_MAX) {</span></a>
-<a name="31"><span class="lineNum">      31 </span><span class="lineCov">        300 :         for(int check=0;check&lt;my_sizes-&gt;locations;check++) {</span></a>
-<a name="32"><span class="lineNum">      32 </span><span class="lineCov">        250 :             if(visited[check]!=1 &amp;&amp; my_state-&gt;distance_matrix[curr][check]!=0 &amp;&amp; (dist[curr]+my_state-&gt;distance_matrix[curr][check])&lt;dist[check]) {</span></a>
-<a name="33"><span class="lineNum">      33 </span><span class="lineCov">         40 :                 dist[check]=(dist[curr]+my_state-&gt;distance_matrix[curr][check]);</span></a>
-<a name="34"><span class="lineNum">      34 </span><span class="lineCov">         40 :                 if(curr==source) {</span></a>
-<a name="35"><span class="lineNum">      35 </span><span class="lineCov">         16 :                     next[check]=check;</span></a>
+<a name="30"><span class="lineNum">      30 </span><span class="lineNoCov">          0 :     while(curr!=INT_MAX) {</span></a>
+<a name="31"><span class="lineNum">      31 </span><span class="lineNoCov">          0 :         for(int check=0;check&lt;my_sizes-&gt;locations;check++) {</span></a>
+<a name="32"><span class="lineNum">      32 </span><span class="lineNoCov">          0 :             if(visited[check]!=1 &amp;&amp; my_state-&gt;distance_matrix[curr][check]!=0 &amp;&amp; (dist[curr]+my_state-&gt;distance_matrix[curr][check])&lt;dist[check]) {</span></a>
+<a name="33"><span class="lineNum">      33 </span><span class="lineNoCov">          0 :                 dist[check]=(dist[curr]+my_state-&gt;distance_matrix[curr][check]);</span></a>
+<a name="34"><span class="lineNum">      34 </span><span class="lineNoCov">          0 :                 if(curr==source) {</span></a>
+<a name="35"><span class="lineNum">      35 </span><span class="lineNoCov">          0 :                     next[check]=check;</span></a>
 <a name="36"><span class="lineNum">      36 </span>            :                 }else {</a>
-<a name="37"><span class="lineNum">      37 </span><span class="lineCov">         24 :                     next[check]=next[curr];</span></a>
+<a name="37"><span class="lineNum">      37 </span><span class="lineNoCov">          0 :                     next[check]=next[curr];</span></a>
 <a name="38"><span class="lineNum">      38 </span>            :                 }</a>
 <a name="39"><span class="lineNum">      39 </span>            :             }</a>
 <a name="40"><span class="lineNum">      40 </span>            :         }</a>
 <a name="41"><span class="lineNum">      41 </span>            : </a>
-<a name="42"><span class="lineNum">      42 </span><span class="lineCov">         50 :         visited[curr]=1;</span></a>
+<a name="42"><span class="lineNum">      42 </span><span class="lineNoCov">          0 :         visited[curr]=1;</span></a>
 <a name="43"><span class="lineNum">      43 </span>            :         </a>
-<a name="44"><span class="lineNum">      44 </span><span class="lineCov">         50 :         smallest_value=INT_MAX;</span></a>
-<a name="45"><span class="lineNum">      45 </span><span class="lineCov">         50 :         curr=INT_MAX;</span></a>
-<a name="46"><span class="lineNum">      46 </span><span class="lineCov">        300 :         for(int check=0;check&lt;my_sizes-&gt;locations;check++) {</span></a>
-<a name="47"><span class="lineNum">      47 </span><span class="lineCov">        250 :             if(visited[check]!=1 &amp;&amp; dist[check]&lt;smallest_value) {</span></a>
-<a name="48"><span class="lineNum">      48 </span><span class="lineCov">         46 :                 smallest_value=dist[check];</span></a>
-<a name="49"><span class="lineNum">      49 </span><span class="lineCov">         46 :                 curr=check;</span></a>
+<a name="44"><span class="lineNum">      44 </span><span class="lineNoCov">          0 :         smallest_value=INT_MAX;</span></a>
+<a name="45"><span class="lineNum">      45 </span><span class="lineNoCov">          0 :         curr=INT_MAX;</span></a>
+<a name="46"><span class="lineNum">      46 </span><span class="lineNoCov">          0 :         for(int check=0;check&lt;my_sizes-&gt;locations;check++) {</span></a>
+<a name="47"><span class="lineNum">      47 </span><span class="lineNoCov">          0 :             if(visited[check]!=1 &amp;&amp; dist[check]&lt;smallest_value) {</span></a>
+<a name="48"><span class="lineNum">      48 </span><span class="lineNoCov">          0 :                 smallest_value=dist[check];</span></a>
+<a name="49"><span class="lineNum">      49 </span><span class="lineNoCov">          0 :                 curr=check;</span></a>
 <a name="50"><span class="lineNum">      50 </span>            :             }</a>
 <a name="51"><span class="lineNum">      51 </span>            :         }</a>
 <a name="52"><span class="lineNum">      52 </span>            :     }</a>
@@ -125,17 +125,17 @@
 <a name="63"><span class="lineNum">      63 </span>            :     #endif</a>
 <a name="64"><span class="lineNum">      64 </span>            : </a>
 <a name="65"><span class="lineNum">      65 </span>            :     // Converts the shortest paths into the path format required for the strategic airlift simulator</a>
-<a name="66"><span class="lineNum">      66 </span><span class="lineCov">         60 :     for(int convert=0;convert&lt;my_sizes-&gt;locations;convert++) {</span></a>
-<a name="67"><span class="lineNum">      67 </span><span class="lineCov">         50 :         if(convert!=source) {</span></a>
-<a name="68"><span class="lineNum">      68 </span><span class="lineCov">         40 :             my_sizes-&gt;paths++;</span></a>
-<a name="69"><span class="lineNum">      69 </span><span class="lineCov">         40 :             *my_paths=realloc(*my_paths,sizeof(struct PATH)*my_sizes-&gt;paths);</span></a>
-<a name="70"><span class="lineNum">      70 </span><span class="lineCov">         40 :             if((*my_paths)!=NULL &amp;&amp; rtn_val==0) {</span></a>
-<a name="71"><span class="lineNum">      71 </span><span class="lineCov">         40 :                 (*my_paths)[my_sizes-&gt;paths-1].source_location=source;</span></a>
-<a name="72"><span class="lineNum">      72 </span><span class="lineCov">         40 :                 (*my_paths)[my_sizes-&gt;paths-1].dest_location=convert;</span></a>
-<a name="73"><span class="lineNum">      73 </span><span class="lineCov">         40 :                 (*my_paths)[my_sizes-&gt;paths-1].next_location=next[convert];</span></a>
-<a name="74"><span class="lineNum">      74 </span><span class="lineCov">         40 :                 (*my_paths)[my_sizes-&gt;paths-1].next_lat=my_state-&gt;airport_list[next[convert]]-&gt;lat;</span></a>
-<a name="75"><span class="lineNum">      75 </span><span class="lineCov">         40 :                 (*my_paths)[my_sizes-&gt;paths-1].next_long=my_state-&gt;airport_list[next[convert]]-&gt;lon;</span></a>
-<a name="76"><span class="lineNum">      76 </span><span class="lineCov">         40 :                 (*my_paths)[my_sizes-&gt;paths-1].aircraft_type=(source&lt;my_state-&gt;num_main_bases &amp;&amp; convert&lt;my_state-&gt;num_main_bases) ? 1 : 2;</span></a>
+<a name="66"><span class="lineNum">      66 </span><span class="lineNoCov">          0 :     for(int convert=0;convert&lt;my_sizes-&gt;locations;convert++) {</span></a>
+<a name="67"><span class="lineNum">      67 </span><span class="lineNoCov">          0 :         if(convert!=source) {</span></a>
+<a name="68"><span class="lineNum">      68 </span><span class="lineNoCov">          0 :             my_sizes-&gt;paths++;</span></a>
+<a name="69"><span class="lineNum">      69 </span><span class="lineNoCov">          0 :             *my_paths=realloc(*my_paths,sizeof(struct PATH)*my_sizes-&gt;paths);</span></a>
+<a name="70"><span class="lineNum">      70 </span><span class="lineNoCov">          0 :             if((*my_paths)!=NULL &amp;&amp; rtn_val==0) {</span></a>
+<a name="71"><span class="lineNum">      71 </span><span class="lineNoCov">          0 :                 (*my_paths)[my_sizes-&gt;paths-1].source_location=source;</span></a>
+<a name="72"><span class="lineNum">      72 </span><span class="lineNoCov">          0 :                 (*my_paths)[my_sizes-&gt;paths-1].dest_location=convert;</span></a>
+<a name="73"><span class="lineNum">      73 </span><span class="lineNoCov">          0 :                 (*my_paths)[my_sizes-&gt;paths-1].next_location=next[convert];</span></a>
+<a name="74"><span class="lineNum">      74 </span><span class="lineNoCov">          0 :                 (*my_paths)[my_sizes-&gt;paths-1].next_lat=my_state-&gt;airport_list[next[convert]]-&gt;lat;</span></a>
+<a name="75"><span class="lineNum">      75 </span><span class="lineNoCov">          0 :                 (*my_paths)[my_sizes-&gt;paths-1].next_long=my_state-&gt;airport_list[next[convert]]-&gt;lon;</span></a>
+<a name="76"><span class="lineNum">      76 </span><span class="lineNoCov">          0 :                 (*my_paths)[my_sizes-&gt;paths-1].aircraft_type=(source&lt;my_state-&gt;num_main_bases &amp;&amp; convert&lt;my_state-&gt;num_main_bases) ? 1 : 2;</span></a>
 <a name="77"><span class="lineNum">      77 </span>            :             }else {</a>
 <a name="78"><span class="lineNum">      78 </span><span class="lineNoCov">          0 :                 printf(&quot;Error allocating memory to store paths.\n&quot;);</span></a>
 <a name="79"><span class="lineNum">      79 </span><span class="lineNoCov">          0 :                 rtn_val=-1;</span></a>
@@ -143,19 +143,19 @@
 <a name="81"><span class="lineNum">      81 </span>            :         }</a>
 <a name="82"><span class="lineNum">      82 </span>            :     }</a>
 <a name="83"><span class="lineNum">      83 </span>            :     </a>
-<a name="84"><span class="lineNum">      84 </span><span class="lineCov">         10 :     return rtn_val;</span></a>
+<a name="84"><span class="lineNum">      84 </span><span class="lineNoCov">          0 :     return rtn_val;</span></a>
 <a name="85"><span class="lineNum">      85 </span>            : }</a>
 <a name="86"><span class="lineNum">      86 </span>            : </a>
-<a name="87"><span class="lineNum">      87 </span><span class="lineCov">          2 : int calc_shortest_path(struct STATE *my_state, struct PATH **my_paths) {</span></a>
-<a name="88"><span class="lineNum">      88 </span><span class="lineCov">          2 :     int rtn_val=0;                                      // The current state of the function to return</span></a>
+<a name="87"><span class="lineNum">      87 </span><span class="lineNoCov">          0 : int calc_shortest_path(struct STATE *my_state, struct PATH **my_paths) {</span></a>
+<a name="88"><span class="lineNum">      88 </span><span class="lineNoCov">          0 :     int rtn_val=0;                                      // The current state of the function to return</span></a>
 <a name="89"><span class="lineNum">      89 </span>            :     </a>
-<a name="90"><span class="lineNum">      90 </span><span class="lineCov">         12 :     for(int calc_paths=0;calc_paths&lt;my_sizes-&gt;locations;calc_paths++) {</span></a>
-<a name="91"><span class="lineNum">      91 </span><span class="lineCov">         10 :         if(rtn_val==0) {</span></a>
-<a name="92"><span class="lineNum">      92 </span><span class="lineCov">         10 :             rtn_val=dijsktra(calc_paths,my_state,my_paths);        </span></a>
+<a name="90"><span class="lineNum">      90 </span><span class="lineNoCov">          0 :     for(int calc_paths=0;calc_paths&lt;my_sizes-&gt;locations;calc_paths++) {</span></a>
+<a name="91"><span class="lineNum">      91 </span><span class="lineNoCov">          0 :         if(rtn_val==0) {</span></a>
+<a name="92"><span class="lineNum">      92 </span><span class="lineNoCov">          0 :             rtn_val=dijsktra(calc_paths,my_state,my_paths);        </span></a>
 <a name="93"><span class="lineNum">      93 </span>            :         }</a>
 <a name="94"><span class="lineNum">      94 </span>            :     }</a>
 <a name="95"><span class="lineNum">      95 </span>            :     </a>
-<a name="96"><span class="lineNum">      96 </span><span class="lineCov">          2 :     return rtn_val;</span></a>
+<a name="96"><span class="lineNum">      96 </span><span class="lineNoCov">          0 :     return rtn_val;</span></a>
 <a name="97"><span class="lineNum">      97 </span>            : }</a>
 </pre>
       </td>
