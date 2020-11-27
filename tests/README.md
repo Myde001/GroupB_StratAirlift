@@ -1,6 +1,6 @@
 **Install check:**
 
-Check uses autotools as a build system, and the default steps work on GNU/Linux systems. To install check  go to [check]https://github.com/libcheck/check and clone the repository. After the latest Check source has been downloaded and unpacked, open a terminal in the unpacked directory, then:
+Check uses autotools as a build system, and the default steps work on GNU/Linux systems. To install check  go to [check](https://github.com/libcheck/check) and clone the repository. After the latest Check source has been downloaded and unpacked, open a terminal in the unpacked directory, then:
 
 `$ ./configure`
 
