@@ -29,6 +29,7 @@
 START_TEST(test_stratairlift) {
 
 }END_TEST 
+//Test driver
 struct AIRPORT** set_gen_locations_airports() {
 
     struct AIRPORT **temp_airports;
@@ -251,7 +252,7 @@ START_TEST(test_find_closest) {
     }
     my_sizes->locations=0;
     my_sizes->paths=0;
-
+    //Test driver being called
     my_airports=set_test_airports();
     set_test_state(my_airports,my_state);
 
