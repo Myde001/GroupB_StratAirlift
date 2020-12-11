@@ -54,6 +54,6 @@ This might prevent code from building hence to fix that, comment out this sectio
 `endif()`
 
 
-An alternative way is to try 
+An alternative way is to run the code using Clion gcovr works with it.
 
 `gcovr -r . --html -o coverage.html`
